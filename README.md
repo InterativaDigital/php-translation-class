@@ -22,13 +22,13 @@ License: The MIT License (MIT)
 Consider you have the following file structure:
 
     ├── lib
-        ├── php-translation-class
-            ├── Translation.php
+    │   └── php-translation-class
+    │       └── Translation.php
     ├── locales
-        ├── en-US.php
-        ├── es-ES.php
-        ├── pt-BR.php
-    ├── index.php
+    │   ├── en-US.php
+    │   ├── es-ES.php
+    │   └── pt-BR.php
+    └── index.php
 
 So, if you want to use the translation class on your index.php, you should do the following:
 
