@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Translation\Translation</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-Translation.html">
+						Translation					</a>
+
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Translation.Translation.html">Translation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Translation.html" title="Summary of Translation"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Translation</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Translation.html">Translation</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-Translation.Translation.html#6-206" title="Go to source code">Translation.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="of" id="_of">
+
+		<td class="attributes"><code>
+			 public static
+
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_of">#</a>
+		<code><a href="source-class-Translation.Translation.html#44-73" title="Go to source code">of</a>( <span>string <var>$localeKey</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Returns the translation of a specific key from the current language locale.
+Optionally you can fill the parameters array with the corresponding string replacements.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns the translation of a specific key from the current language locale.
+Optionally you can fill the parameters array with the corresponding string replacements.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$localeKey</var></dt>
+					<dd></dd>
+					<dt><var>$parameters</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string|null
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLocalesDir" id="_setLocalesDir">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLocalesDir">#</a>
+		<code><a href="source-class-Translation.Translation.html#75-86" title="Go to source code">setLocalesDir</a>( <span>string <var>$localesDir</var></span> )</code>
+
+		<div class="description short">
+			<p>Used to set a custom locale directory.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Used to set a custom locale directory.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$localesDir</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setDefaultLanguage" id="_setDefaultLanguage">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setDefaultLanguage">#</a>
+		<code><a href="source-class-Translation.Translation.html#88-99" title="Go to source code">setDefaultLanguage</a>( <span>string <var>$defaultLanguage</var></span> )</code>
+
+		<div class="description short">
+			<p>Used to set a custom default language.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Used to set a custom default language.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$defaultLanguage</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forceLanguage" id="_forceLanguage">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forceLanguage">#</a>
+		<code><a href="source-class-Translation.Translation.html#101-112" title="Go to source code">forceLanguage</a>( <span>string <var>$language</var></span> )</code>
+
+		<div class="description short">
+			<p>Used to force the translations in a specific language from now on.
+To cancel the enforcement, at any time, you can call "forceLanguage(null)",
+then it restarts using the client language or the default language.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Used to force the translations in a specific language from now on.
+To cancel the enforcement, at any time, you can call "forceLanguage(null)",
+then it restarts using the client language or the default language.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$language</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setParameterEnclosingChars" id="_setParameterEnclosingChars">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setParameterEnclosingChars">#</a>
+		<code><a href="source-class-Translation.Translation.html#114-125" title="Go to source code">setParameterEnclosingChars</a>( <span>string <var>$openingChar</var> = <span class="php-quote">'{'</span></span>, <span>string <var>$closingChar</var> = <span class="php-quote">'}'</span></span> )</code>
+
+		<div class="description short">
+			<p>Used to set custom parameter enclosing characters.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Used to set custom parameter enclosing characters.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$openingChar</var></dt>
+					<dd></dd>
+					<dt><var>$closingChar</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkIfLocalesAreLoaded" id="_checkIfLocalesAreLoaded">
+
+		<td class="attributes"><code>
+			 protected static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkIfLocalesAreLoaded">#</a>
+		<code><a href="source-class-Translation.Translation.html#127-138" title="Go to source code">checkIfLocalesAreLoaded</a>( )</code>
+
+		<div class="description short">
+			<p>Checks if current language locale is already loaded. Loading new locales only when needed.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks if current language locale is already loaded. Loading new locales only when needed.</p>
+
+
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getClientLanguage" id="_getClientLanguage">
+
+		<td class="attributes"><code>
+			 protected static
+
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getClientLanguage">#</a>
+		<code><a href="source-class-Translation.Translation.html#140-147" title="Go to source code">getClientLanguage</a>( )</code>
+
+		<div class="description short">
+			<p>Returns the client language code.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns the client language code.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string|null<br>Returns the ISO-639 Language Code followed by ISO-3166 Country Code, like 'en-US'. Null if PHP couldn't detect it.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkIfLocalesDirExists" id="_checkIfLocalesDirExists">
+
+		<td class="attributes"><code>
+			 protected static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkIfLocalesDirExists">#</a>
+		<code><a href="source-class-Translation.Translation.html#149-159" title="Go to source code">checkIfLocalesDirExists</a>( )</code>
+
+		<div class="description short">
+			<p>Checks if locale dir exists. If not, throws an exception.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks if locale dir exists. If not, throws an exception.</p>
+
+
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkIfLocaleForDefaultLanguageExists" id="_checkIfLocaleForDefaultLanguageExists">
+
+		<td class="attributes"><code>
+			 protected static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkIfLocaleForDefaultLanguageExists">#</a>
+		<code><a href="source-class-Translation.Translation.html#161-171" title="Go to source code">checkIfLocaleForDefaultLanguageExists</a>( )</code>
+
+		<div class="description short">
+			<p>Checks if locale for default language exists. If not, throws an exception.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks if locale for default language exists. If not, throws an exception.</p>
+
+
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkIfHasBeenInitialized" id="_checkIfHasBeenInitialized">
+
+		<td class="attributes"><code>
+			 protected static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkIfHasBeenInitialized">#</a>
+		<code><a href="source-class-Translation.Translation.html#173-182" title="Go to source code">checkIfHasBeenInitialized</a>( )</code>
+
+		<div class="description short">
+			<p>Checks if the class has been initialized.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks if the class has been initialized.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initialize" id="_initialize">
+
+		<td class="attributes"><code>
+			 protected static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initialize">#</a>
+		<code><a href="source-class-Translation.Translation.html#184-194" title="Go to source code">initialize</a>( )</code>
+
+		<div class="description short">
+			<p>Initializes the class, setting up the default configuration.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Initializes the class, setting up the default configuration.</p>
+
+
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkIfLocaleForCurrentLanguageExists" id="_checkIfLocaleForCurrentLanguageExists">
+
+		<td class="attributes"><code>
+			 protected static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkIfLocaleForCurrentLanguageExists">#</a>
+		<code><a href="source-class-Translation.Translation.html#196-205" title="Go to source code">checkIfLocaleForCurrentLanguageExists</a>( )</code>
+
+		<div class="description short">
+			<p>Checks if locale for current language exists. If not, start using the default language.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks if locale for current language exists. If not, start using the default language.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="localesDir" id="$localesDir">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Translation.Translation.html#8-12" title="Go to source code"><var>$localesDir</var></a>
+
+			<div class="description short">
+				<p>Directory path of the locale files.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Directory path of the locale files.</p>
+
+					<h4>Type</h4>
+					<div class="list">
+							string<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$localesDir" class="anchor">#</a>
+				<code><span class="php-quote">'locales'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="defaultLanguage" id="$defaultLanguage">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Translation.Translation.html#14-18" title="Go to source code"><var>$defaultLanguage</var></a>
+
+			<div class="description short">
+				<p>The default language to use if the client language or the forced language locales are not found.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The default language to use if the client language or the forced language locales are not found.</p>
+
+					<h4>Type</h4>
+					<div class="list">
+							string<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$defaultLanguage" class="anchor">#</a>
+				<code><span class="php-quote">'en-US'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="loadedLocales" id="$loadedLocales">
+		<td class="attributes"><code>
+			protected static 
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Translation.Translation.html#20-24" title="Go to source code"><var>$loadedLocales</var></a>
+
+			<div class="description short">
+				<p>Array where loaded locales will be kept to avoid the need of reload the locale file.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Array where loaded locales will be kept to avoid the need of reload the locale file.</p>
+
+					<h4>Type</h4>
+					<div class="list">
+							array<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$loadedLocales" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="currentLanguage" id="$currentLanguage">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Translation.Translation.html#26-30" title="Go to source code"><var>$currentLanguage</var></a>
+
+			<div class="description short">
+				<p>The current language being used to translate.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The current language being used to translate.</p>
+
+					<h4>Type</h4>
+					<div class="list">
+							string<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$currentLanguage" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="initialized" id="$initialized">
+		<td class="attributes"><code>
+			protected static 
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Translation.Translation.html#32-36" title="Go to source code"><var>$initialized</var></a>
+
+			<div class="description short">
+				<p>Determine whether the class has been initialized.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Determine whether the class has been initialized.</p>
+
+					<h4>Type</h4>
+					<div class="list">
+							bool<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$initialized" class="anchor">#</a>
+				<code><span class="php-keyword1">false</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="parameterEnclosingChars" id="$parameterEnclosingChars">
+		<td class="attributes"><code>
+			protected static 
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Translation.Translation.html#38-42" title="Go to source code"><var>$parameterEnclosingChars</var></a>
+
+			<div class="description short">
+				<p>Definition of the enclosing characters for the parameters inside the translation strings.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Definition of the enclosing characters for the parameters inside the translation strings.</p>
+
+					<h4>Type</h4>
+					<div class="list">
+							array<br>
+					</div>
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$parameterEnclosingChars" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>(<span class="php-quote">'{'</span>, <span class="php-quote">'}'</span>)</code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
